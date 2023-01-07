@@ -1,0 +1,47 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header title={SITE_TITLE} />
+		<main>
+			<h1>Observad, curiosos!</h1>
+			<p>
+				Bienvenidos al sitio oficial de <a href="https://gramaphenia.my.canva.site/">Gramaphenia</a> ,un blog para observar de cerca ciertos aspectos de la geometria que se van revelando, en la medida en la que se van descubriendo. Para los que no conocen el trabajo de gramaphenia, recomiendo dar un vistazo por el entorno creado a travez de diferentes materias revisadas en los ultimos tiempos. Los esfuerzon por encontrar pensamientos que me permitan desarrollarme a mayor velocidad estan empezando a fallar, al parecer no todo lo que observo se puede resumir. Algo de lo que esta pasando me hace ruido. Todos los objetos que me rodean vuelven a comprimirme el pecho. La rabia de los otros parece cada vez mas cerca de mi cuello, oigo los aullidos destrosando el silencio. Gotas de sudor contenidas por intentar disimular que lo que esta pasando es irreal.  
+			</p>
+			<p>
+				Real parece ser esto a continuacion
+				<code>esta clase se resaltado</code>. Etiqueta code. Puedes recorrer el sitio a continuacion. 
+				<a href="https://www.instagram.com/gramaphenia/">Tres dimensiones</a> para recordar ciertos aspectos de la geometria.
+			</p>
+			<p>A continuacion algo para decir: </p>
+			<ul>
+				<li>Primero <code>primero.lo.primero</code></li>
+				<li>Segundo <code>segundo.lo.segundo</code></li>
+				<li>Tercero <code>tercero.lo.tercero</code></li>
+				<li>Cuarto <code>cuarto.lo.cuarto</code></li>
+				<li>Quinto <code>quinto.lo.quinto</code></li>
+			</ul>
+			<p>
+				Colaboracion de cerca <a href="https://oclusionambiental.my.canva.site/"
+					>Oclusion Ambiental
+				</a> or <a href="https://astro.build/chat">join us on Discord</a> to ask questions.
+			</p>
+			<p>
+				Looking for a blog template with a bit more personality? Check out <a
+					href="https://github.com/Charca/astro-blog-template"
+					>astro-blog-template
+				</a> by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
+			</p>
+		</main>
+		<Footer />
+	</body>
+</html>
